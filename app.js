@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.static('public'))
 
 mongoose.connect(
-  process.env.DB_URL,
+  "mongodb+srv://vinay:shreyasvinay@dailyjournal.txuwnsf.mongodb.net/?retryWrites=true&w=majority",
   { useNewUrlParser: true }
 )
 
